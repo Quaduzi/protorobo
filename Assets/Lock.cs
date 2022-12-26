@@ -39,10 +39,11 @@ public class Lock : MonoBehaviour
         };
     }
 
+    [ContextMenu("bruh")]
     public void Unlock()
     {
         if (lockType != LockType.Key) return;
         _card.UnblockCard();
-        Destroy(transform);
+        Destroy(gameObject);
     }
 }

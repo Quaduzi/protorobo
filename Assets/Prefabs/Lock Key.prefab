@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3945108348947163719}
   - component: {fileID: 7367160659333056798}
   m_Layer: 0
-  m_Name: Lock
+  m_Name: Lock Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2666828259259350465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: -1}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 1198536301, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,6 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34863c546685e43409f435db94f98201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hardLockSprite: {fileID: 0}
-  keyLockSprite: {fileID: 0}
-  lockType: 0
+  hardLockSprite: {fileID: -1170884425, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
+  keyLockSprite: {fileID: 1198536301, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
+  lockType: 1
