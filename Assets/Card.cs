@@ -19,6 +19,7 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (IsLocked) return;
+        GlobalEventManager.SendCardBeginDrag();
         _collider.enabled = false;
     }
     
@@ -32,6 +33,7 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
     public void OnEndDrag(PointerEventData eventData)
     {
         if (IsLocked) return;
+        GlobalEventManager.SendCardEndDrag();
         var behind = eventData.pointerCurrentRaycast.gameObject;
         if (behind != null)
         {
