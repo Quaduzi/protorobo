@@ -1,16 +1,19 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Collider2D), typeof(SpriteMask))]
 public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     private Collider2D _collider;
+    private SpriteMask _spriteMask;
     [SerializeField] private bool locked;
     public bool IsLocked => locked;
+    
 
     private void Awake()
     {
         _collider = GetComponent<Collider2D>();
+        _spriteMask = GetComponent<SpriteMask>();
     }
     
     public void OnBeginDrag(PointerEventData eventData)
@@ -47,16 +50,11 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
         _collider.enabled = true;
     }
 
-    public void BlockCard()
-    {
-        locked = true;
-    }
+    public void BlockCard() => locked = true;
+    public void UnblockCard() => locked = false;
+    public void EnableSpriteMask() => _spriteMask.enabled = true;
+    public void DisableSpriteMask() => _spriteMask.enabled = false;
 
-    public void UnblockCard()
-    {
-        locked = false;
-    }
-    
     private void SwapCards(Card a, Card b)
     {
         var cardA = a.transform;
