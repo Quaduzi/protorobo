@@ -21,13 +21,7 @@ public class Player : MonoBehaviour
         _parentCard = GetComponentInParent<Card>();
     }
 
-    private void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         _rb.velocity = new Vector2(speed * (int)direction, _rb.velocity.y);
     }
@@ -39,5 +33,14 @@ public class Player : MonoBehaviour
         _parentCard = GetComponentInParent<Card>();
         _parentCard.EnableSpriteMask();
         
+    }
+
+    private void Flip() => direction = (Direction) (-(int)direction);
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.name);
+        if (col.TryGetComponent<Card>(out _)) ChangeParentCard(col.transform);
+        if (col.TryGetComponent<FlipTrigger>(out _)) Flip();
     }
 }

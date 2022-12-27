@@ -1083,7 +1083,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_55
+      name: DOOR
       rect:
         serializedVersion: 2
         x: 228
@@ -1506,13 +1506,13 @@ TextureImporter:
       LAMP: 62088540
       ASSETSMAP_13: -775294390
       ASSETSMAP_67: -1901658093
-      FLOOR_HALF_L: 645949196
       LIGHT_3: 2026329462
+      FLOOR_HALF_L: 645949196
+      DOOR: 681310606
       TUBES_1: 853501807
       ASSETSMAP_19: -279056048
       SHADOW: -1080754180
       ASSETSMAP_74: -137961065
-      ASSETSMAP_55: 681310606
       ASSETSMAP_52: -1167944334
       LINE_5: 687632915
       LAMP_BROKEN: -144429968
