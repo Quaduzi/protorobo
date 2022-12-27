@@ -1,0 +1,1552 @@
+fileFormatVersion: 2
+guid: c20004c03e44ac5409806ce66b1939a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ASSETSMAP_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 904
+        width: 60
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42881030d6db64c40a405f58092a8e39
+      internalID: 642430353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUBES_1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 802
+        width: 186
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e999cd7efdf7afe4298c85ee4cf0ea49
+      internalID: 853501807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_HALF
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 826
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4ac8d5235dd6949abdcdc4b092b15c
+      internalID: 904968283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 844
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d2171b29083044a08cd7147087db5
+      internalID: 974725403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 874
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edd2571405b8954cb77b23efbacdc01
+      internalID: -1043805038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEY
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 856
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efafe1bee135dc24991d296d9c6f691c
+      internalID: -411684796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIGHT_1
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 800
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3803d0d0e182d4d8f373cfff9d8cca
+      internalID: -1920779297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 856
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189fcc7c4e127584c827d7d02d59c0da
+      internalID: -416510377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 850
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dbe763996438945aa81dfafc56ccdf
+      internalID: 1109831291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 852
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1736b04595981314285106ec44ccae26
+      internalID: -1891742758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 850
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ed49ae09fc0b343936e097e9ebf582
+      internalID: 1217604770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 854
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a248ab87a6d314bad9dc0dca778dff
+      internalID: -775294390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_14
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 856
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7980f4814b59053418ca57bb673f09c2
+      internalID: 1582188444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 856
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c939f12f43bcb4c47b301dccb557ab67
+      internalID: -1821807144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 790
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3e35c71f5bc154eaf17ecbf7cf57cc
+      internalID: -484405229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 788
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1f7d39ce446e847b9b08d485603d09
+      internalID: 47496925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_18
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 786
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601a210859f710648ac4930d38b52ed8
+      internalID: 243897032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 786
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553b74ac6e44b3e4ea71d7a617e05b81
+      internalID: -279056048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_20
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 786
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d95b2f8d0a494183c7661f3337dc7
+      internalID: 1838122376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 786
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5010c35ac7e84fab2ada8a24e469b
+      internalID: -714029927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_FLAT
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 720
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78fd966008a5a643bbcb408cd125cee
+      internalID: 154943673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 710
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889ed87fe138144b80beedcc75d5603
+      internalID: -648803003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 710
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb7ffd2f9976a54bbe387b118f55961
+      internalID: -69859417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 710
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747fcce26b7956947a258cc22f63e53e
+      internalID: -2107566108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 710
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ed1727607bd084196af2e65dee9811
+      internalID: -660982445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_28
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 710
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6923d646c049b4089cf2c7cec5da24
+      internalID: 1557699312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 710
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99abb125cfbdfea4a8df66e6280993c5
+      internalID: -1235345503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_31
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 718
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca49bc14c263ed44b26a2c7a47b1000
+      internalID: 361074171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUBES_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 668
+        width: 20
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e05d743923a47642a9a731c3b48959d
+      internalID: -428085519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 584
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3114519bee3c54fbc98255e831ba8c
+      internalID: 1363243910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 624
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e6e46ab70be4b45b2f7ab552058c32
+      internalID: 1205335177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 624
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64002937910c5b04988664d2019b67db
+      internalID: 730777642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 580
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c1ee7a0dd13048a128cc15fefdb43
+      internalID: 1247819773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_2_POUNDS
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 628
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2666ab172240fa468e69975af65f317
+      internalID: -1115831297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIGHT_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 600
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74516714328f1fd49b8c6e7b16e20924
+      internalID: -2084924148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HARD_LOCK
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 516
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1ce7a4aeb5d754d9fa94bdf9f792a2
+      internalID: -1170884425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEY_LOCK
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 516
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845a3ac551383d41840f56d7f8c9510
+      internalID: 1198536301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_BIG_POUND
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 540
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230057a6826aa7a4ea38fb17fe10febf
+      internalID: -633455765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIGHT_3
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 472
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7cb0381cf73f148910e194f26ce0e9
+      internalID: 2026329462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARD_FRAME
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 294
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f2a2aef5943d74a96f6be2d0601fde
+      internalID: 1104700471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARD_BACKGROUND
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 296
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b36b8e9e7f1724ab6b451486439ee4
+      internalID: -1399300205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_POUND
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 448
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e6d7cb608a88a4483b009768eae923
+      internalID: -1639965243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 318
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526db4d3b401ac4994d1429a34884ec
+      internalID: -1080754180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9915f5030d3fd43beb84cb913e0651
+      internalID: -1167944334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 200
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f3c7c0c00443a4fb7049a84a3e41e5
+      internalID: 175780511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 212
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319231187ef947344b0d26165b525995
+      internalID: -1216324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOOR
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 190
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f07deab6be63884cb549fbe91f87a19
+      internalID: 681310606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_56
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 202
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bf2a23505ed514ca9d0f61180fdd90
+      internalID: -353390656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_57
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 200
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967603478f3e3904492d795a2af81700
+      internalID: 337345179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_HALF_POUND
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 174
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9902b3c6bf11d6245a10c0c30aecfb84
+      internalID: 1949021447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VIGNETE_HALF
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 176
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f87500a3d49d6b4ba5f94ce4cdba5d6
+      internalID: -1516771947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LINE_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 154
+        width: 200
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f1f3958713c747ba2a23e48adbd33
+      internalID: 1822583194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LAMP
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 160
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6984c7940c0f4504893e3ee2a9e9b317
+      internalID: 62088540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LAMP_BROKEN
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 162
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7280ed161eefef54aa3dba8f86d5ce04
+      internalID: -144429968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLOOR_2_POUND_ASS
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 82
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3520dfb32230444b4087900165e278
+      internalID: 570020432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LINE_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 118
+        width: 200
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ad7af382d374a4b848f6e5f5d082ee
+      internalID: -1142463651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_72
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 98
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965e9660db46624882c3f848201d5bf
+      internalID: 1456103021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_73
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 94
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf71aa3c66e5214891bb731854ceb75
+      internalID: 1756341074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LINE_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 200
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9add28ba624222b4cab1e5291144674b
+      internalID: -926378258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LINE_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 50
+        width: 200
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297e1535c515c14b90deb03dbe3e514
+      internalID: -189787598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 22
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da13065e63abd6b4b825b58a3ab503f8
+      internalID: 705164475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETSMAP_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 40
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c533d6ca166b094aa96264e635cb2f5
+      internalID: 1653708237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LINE_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 24
+        width: 200
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76192a7d39623047a2285aaa84ae591
+      internalID: 687632915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ASSETSMAP_70: -2106452847
+      ASSETSMAP_82: 349025288
+      ASSETSMAP_65: -2111853979
+      ASSETSMAP_20: 1838122376
+      ASSETSMAP_86: 1653708237
+      ASSETSMAP_14: 1582188444
+      ASSETSMAP_51: -1942042592
+      LINE_1: 1822583194
+      ASSETSMAP_21: -714029927
+      ASSETSMAP_90: -2009235235
+      VIGNETE_HALF: -1516771947
+      FLOOR_HALF: 904968283
+      ASSETSMAP_85: 705164475
+      ASSETSMAP_61: 509996359
+      ASSETSMAP_9: -416510377
+      CARD_BACKGROUND: -1399300205
+      ASSETSMAP_29: 236485630
+      ASSETSMAP_28: 1557699312
+      ASSETSMAP_10: 1109831291
+      FLOOR_2_POUND_ASS: 570020432
+      ASSETSMAP_30: -1235345503
+      ASSETSMAP_93: -687007381
+      ASSETSMAP_58: 249372836
+      ASSETSMAP_37: 1247819773
+      ASSETSMAP_68: 441107212
+      LINE_4: -189787598
+      ASSETSMAP_18: 243897032
+      CARD_FRAME: 1104700471
+      ASSETSMAP_35: 1205335177
+      ASSETSMAP_49: -1161058495
+      ASSETSMAP_16: -484405229
+      ASSETSMAP_26: 1387445039
+      FLOOR_POUND: -1639965243
+      ASSETSMAP_31: 361074171
+      ASSETSMAP_17: 47496925
+      ASSETSMAP_78: 1187946186
+      KEY: -411684796
+      ASSETSMAP_50: 976505598
+      ASSETSMAP_72: 1456103021
+      ASSETSMAP_81: -2015060109
+      HARD_LOCK: -1170884425
+      FLOOR_FLAT: 154943673
+      ASSETSMAP_33: -1517642932
+      ASSETSMAP_76: -679580493
+      ASSETSMAP_0: 135039162
+      ASSETSMAP_12: 1217604770
+      ASSETSMAP_84: -2108435556
+      ASSETSMAP_69: 273927828
+      LINE_3: -926378258
+      LINE_2: -1142463651
+      FLOOR_2_POUNDS: -1115831297
+      ASSETSMAP_92: 1889861083
+      FLOOR_BIG_POUND: -633455765
+      LAMP: 62088540
+      ASSETSMAP_13: -775294390
+      ASSETSMAP_67: -1901658093
+      LIGHT_3: 2026329462
+      FLOOR_HALF_L: 645949196
+      DOOR: 681310606
+      TUBES_1: 853501807
+      ASSETSMAP_19: -279056048
+      SHADOW: -1080754180
+      ASSETSMAP_74: -137961065
+      ASSETSMAP_52: -1167944334
+      LINE_5: 687632915
+      LAMP_BROKEN: -144429968
+      ASSETSMAP_75: -86441420
+      ASSETSMAP_27: -660982445
+      ASSETSMAP_73: 1756341074
+      ASSETSMAP_54: -1216324575
+      ASSETSMAP_23: -648803003
+      ASSETSMAP_83: 1820087739
+      LIGHT_1: -1920779297
+      LIGHT_2: -2084924148
+      ASSETSMAP_87: -820956377
+      TUBES_2: -428085519
+      ASSETSMAP_11: -1891742758
+      ASSETSMAP_25: -2107566108
+      ASSETSMAP_24: -69859417
+      FLOOR_HALF_POUND: 1949021447
+      ASSETSMAP_34: 1363243910
+      ASSETSMAP_88: -1167163112
+      ASSETSMAP_36: 730777642
+      FLOOR_POUND_L: 478933566
+      ASSETSMAP_15: -1821807144
+      ASSETSMAP_77: -1162021934
+      ASSETSMAP_57: 337345179
+      ASSETSMAP_1: 642430353
+      ASSETSMAP_6: -1043805038
+      ASSETSMAP_91: 1112244281
+      ASSETSMAP_5: 974725403
+      ASSETSMAP_56: -353390656
+      ASSETSMAP_53: 175780511
+      KEY_LOCK: 1198536301
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
