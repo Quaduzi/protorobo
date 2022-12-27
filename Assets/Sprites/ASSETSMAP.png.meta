@@ -1020,7 +1020,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_52
+      name: "\u0421RATE"
       rect:
         serializedVersion: 2
         x: 72
@@ -1475,6 +1475,7 @@ TextureImporter:
       ASSETSMAP_58: 249372836
       ASSETSMAP_37: 1247819773
       ASSETSMAP_68: 441107212
+      "\u0421RATE": -1167944334
       LINE_4: -189787598
       ASSETSMAP_18: 243897032
       CARD_FRAME: 1104700471
@@ -1513,7 +1514,6 @@ TextureImporter:
       ASSETSMAP_19: -279056048
       SHADOW: -1080754180
       ASSETSMAP_74: -137961065
-      ASSETSMAP_52: -1167944334
       LINE_5: 687632915
       LAMP_BROKEN: -144429968
       ASSETSMAP_75: -86441420
