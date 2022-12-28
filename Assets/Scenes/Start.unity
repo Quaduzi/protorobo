@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 568836687}
   - component: {fileID: 568836686}
   m_Layer: 0
-  m_Name: SceneControl
+  m_Name: GameControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 1232565878}
   - component: {fileID: 1232565877}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: SceneControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,9 +369,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f661692abd1aa7428371f33529e6d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLevelIndex: 0
+  firstLevelBuildIndex: 4
   mainMenuBuildIndex: 1
   titlesBuildIndex: 2
+  selectLevelBuildIndex: 3
 --- !u!4 &1232565878
 Transform:
   m_ObjectHideFlags: 0

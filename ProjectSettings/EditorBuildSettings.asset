@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Raycast.unity
+    path: Assets/Scenes/Start.unity
     guid: 6f556ebbde81b2643a0708c277b9e978
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Titles.unity
     guid: ad9936aea51e90e4683c5fff9f18ae6b
+  - enabled: 1
+    path: Assets/Scenes/SelectLevel.unity
+    guid: 8b5bce63bde96de4d97bc2ecda4d84de
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: d27a0723df50d054da34aa7289d3bce5
