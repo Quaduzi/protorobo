@@ -373,6 +373,7 @@ MonoBehaviour:
   mainMenuBuildIndex: 1
   titlesBuildIndex: 2
   selectLevelBuildIndex: 3
+  levelIndex: 0
 --- !u!4 &1232565878
 Transform:
   m_ObjectHideFlags: 0

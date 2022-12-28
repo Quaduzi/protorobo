@@ -44,6 +44,6 @@ public class Lock : MonoBehaviour
     {
         if (lockType != LockType.Key) return;
         _card.UnblockCard();
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

@@ -18,19 +18,17 @@ public class SceneControl : MonoBehaviour
 
     private void Start()
     {
-        //LoadMainMenu();
-        Test();
+        LoadMainMenu();
+        //Test();
     }
     
     private static SceneControl _instance;
     public static int LevelsCount => SceneManager.sceneCountInBuildSettings - _instance.firstLevelBuildIndex;
+    public static int CurrentLevel => _instance._currentLevel;
     
     public static void LoadMainMenu() => LoadScene(_instance.mainMenuBuildIndex);
     public static void LoadTitles() => LoadScene(_instance.titlesBuildIndex);
     public static void LoadSelectLevel() => LoadScene(_instance.selectLevelBuildIndex);
-
-    [ContextMenu("bruh")]
-    public void Test() => LoadLevel(0);
 
     public static void NextLevel()
     {
@@ -52,5 +50,13 @@ public class SceneControl : MonoBehaviour
     {
         SceneManager.LoadScene(buildIndex);
     }
+    
+#if UNITY_EDITOR
+    [Space]
+    [Header("Debug")]
+    [SerializeField] private int levelIndex;
+    [ContextMenu("Change Level")]
+    public void ChangeLevel() => LoadLevel(levelIndex);
+#endif
     
 }

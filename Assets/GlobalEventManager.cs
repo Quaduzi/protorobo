@@ -9,6 +9,7 @@ public class GlobalEventManager : MonoBehaviour
     public static readonly UnityEvent OnEndCardTransition = new();
     public static readonly UnityEvent OnStartLevelTransition = new();
     public static readonly UnityEvent<int> OnLevelChanged = new();
+    public static readonly UnityEvent<Level.LevelInfo> OnLevelLoaded = new();
 
     public static void SendCardBeginDrag() => OnCardBeginDrag?.Invoke();
     public static void SendCardEndDrag() => OnCardEndDrag?.Invoke();
@@ -17,4 +18,5 @@ public class GlobalEventManager : MonoBehaviour
     public static void SendStartLevelTransition() => OnStartLevelTransition?.Invoke();
     
     public static void SendLevelChanged(int level) => OnLevelChanged?.Invoke(level);
+    public static void SendLevelLoaded(Level.LevelInfo levelInfo) => OnLevelLoaded?.Invoke(levelInfo);
 }

@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ASSETSMAP_1
+      name: LASER_2
       rect:
         serializedVersion: 2
         x: 308
-        y: 904
+        y: 898
         width: 60
-        height: 12
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_6
+      name: LASER_0
       rect:
         serializedVersion: 2
         x: 308
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_10
+      name: LASER_BASE
       rect:
         serializedVersion: 2
         x: 212
@@ -306,55 +306,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_11
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 852
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1736b04595981314285106ec44ccae26
-      internalID: -1891742758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ASSETSMAP_12
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 850
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75ed49ae09fc0b343936e097e9ebf582
-      internalID: 1217604770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ASSETSMAP_13
+      name: LASER_1
       rect:
         serializedVersion: 2
         x: 308
-        y: 854
-        width: 62
-        height: 12
+        y: 848
+        width: 60
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_14
+      name: BUTTON
       rect:
         serializedVersion: 2
         x: 426
@@ -390,11 +348,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_15
+      name: BUTTON_PRESSED
       rect:
         serializedVersion: 2
         x: 464
-        y: 856
+        y: 857
         width: 34
         height: 10
       alignment: 0
@@ -726,7 +684,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_34
+      name: BOX_VERTICAL
       rect:
         serializedVersion: 2
         x: 80
@@ -747,7 +705,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_35
+      name: BOX_HORIZONTAL
       rect:
         serializedVersion: 2
         x: 176
@@ -768,7 +726,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_36
+      name: BOX_SMALL
       rect:
         serializedVersion: 2
         x: 270
@@ -789,7 +747,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_37
+      name: BOX_BIG
       rect:
         serializedVersion: 2
         x: 340
@@ -1104,7 +1062,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ASSETSMAP_56
+      name: TABLE
       rect:
         serializedVersion: 2
         x: 294
@@ -1450,49 +1408,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      BOX_BIG: 1247819773
       ASSETSMAP_70: -2106452847
       ASSETSMAP_82: 349025288
       ASSETSMAP_65: -2111853979
       ASSETSMAP_20: 1838122376
       ASSETSMAP_86: 1653708237
-      ASSETSMAP_14: 1582188444
+      FLOOR_HALF: 904968283
       ASSETSMAP_51: -1942042592
       LINE_1: 1822583194
       ASSETSMAP_21: -714029927
       ASSETSMAP_90: -2009235235
       VIGNETE_HALF: -1516771947
-      FLOOR_HALF: 904968283
       ASSETSMAP_85: 705164475
       ASSETSMAP_61: 509996359
       ASSETSMAP_9: -416510377
       CARD_BACKGROUND: -1399300205
       ASSETSMAP_29: 236485630
       ASSETSMAP_28: 1557699312
-      ASSETSMAP_10: 1109831291
+      LASER_1: -775294390
       FLOOR_2_POUND_ASS: 570020432
       ASSETSMAP_30: -1235345503
+      LASER_0: -1043805038
       ASSETSMAP_93: -687007381
       ASSETSMAP_58: 249372836
-      ASSETSMAP_37: 1247819773
       ASSETSMAP_68: 441107212
       "\u0421RATE": -1167944334
       LINE_4: -189787598
+      BUTTON: 1582188444
       ASSETSMAP_18: 243897032
       CARD_FRAME: 1104700471
-      ASSETSMAP_35: 1205335177
       ASSETSMAP_49: -1161058495
       ASSETSMAP_16: -484405229
       ASSETSMAP_26: 1387445039
       FLOOR_POUND: -1639965243
       ASSETSMAP_31: 361074171
       ASSETSMAP_17: 47496925
+      BOX_SMALL: 730777642
+      BOX_VERTICAL: 1363243910
       ASSETSMAP_78: 1187946186
       KEY: -411684796
       ASSETSMAP_50: 976505598
       ASSETSMAP_72: 1456103021
       ASSETSMAP_81: -2015060109
-      HARD_LOCK: -1170884425
       FLOOR_FLAT: 154943673
+      HARD_LOCK: -1170884425
       ASSETSMAP_33: -1517642932
       ASSETSMAP_76: -679580493
       ASSETSMAP_0: 135039162
@@ -1505,14 +1465,16 @@ TextureImporter:
       ASSETSMAP_92: 1889861083
       FLOOR_BIG_POUND: -633455765
       LAMP: 62088540
-      ASSETSMAP_13: -775294390
+      TABLE: -353390656
       ASSETSMAP_67: -1901658093
-      LIGHT_3: 2026329462
       FLOOR_HALF_L: 645949196
+      LIGHT_3: 2026329462
       DOOR: 681310606
+      BUTTON_PRESSED: -1821807144
       TUBES_1: 853501807
       ASSETSMAP_19: -279056048
       SHADOW: -1080754180
+      LASER_BASE: 1109831291
       ASSETSMAP_74: -137961065
       LINE_5: 687632915
       LAMP_BROKEN: -144429968
@@ -1528,20 +1490,16 @@ TextureImporter:
       TUBES_2: -428085519
       ASSETSMAP_11: -1891742758
       ASSETSMAP_25: -2107566108
+      LASER_2: 642430353
       ASSETSMAP_24: -69859417
       FLOOR_HALF_POUND: 1949021447
-      ASSETSMAP_34: 1363243910
       ASSETSMAP_88: -1167163112
-      ASSETSMAP_36: 730777642
       FLOOR_POUND_L: 478933566
-      ASSETSMAP_15: -1821807144
       ASSETSMAP_77: -1162021934
       ASSETSMAP_57: 337345179
-      ASSETSMAP_1: 642430353
-      ASSETSMAP_6: -1043805038
+      BOX_HORIZONTAL: 1205335177
       ASSETSMAP_91: 1112244281
       ASSETSMAP_5: 974725403
-      ASSETSMAP_56: -353390656
       ASSETSMAP_53: 175780511
       KEY_LOCK: 1198536301
   spritePackingTag: 
