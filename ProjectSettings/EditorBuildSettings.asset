@@ -5,9 +5,60 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Raycast.unity
+    guid: 6f556ebbde81b2643a0708c277b9e978
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a0c409c47d8cbfa4e86e861407d6f069
+  - enabled: 1
+    path: Assets/Scenes/Titles.unity
+    guid: ad9936aea51e90e4683c5fff9f18ae6b
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d27a0723df50d054da34aa7289d3bce5
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: ea8f649be65f99045968e8fff87e038f
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: a6dca2878ac0a09418db272d5133cd6f
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 53862028e49603f48b6fada86d8edc62
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 70b5aef9824b78e4f8ee9dc570d7b5cb
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: f1a25dbfabba7e2409dfe84125ef51d1
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 10a4f8bc6bc53974a857a8cd1b0a42be
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 9edd1f19a186d07408667f2210804309
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: f2716f0ae460b1445a79340eb83dec1e
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: e5dbbc2540d4590478c0d501a4e8b6a3
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: fc7219b21a2b7f64799d79c6b01a1470
+  - enabled: 1
+    path: Assets/Scenes/Level12.unity
+    guid: f11593ab5f130e841add847ebb49ef71
+  - enabled: 1
+    path: Assets/Scenes/Level13.unity
+    guid: d1ab6cf952092924284bf0d17cc2420e
+  - enabled: 1
+    path: Assets/Scenes/Level14.unity
+    guid: 8c9798825e29ec742a6af01c60e38f8a
+  - enabled: 1
+    path: Assets/Scenes/Level15.unity
+    guid: 07b48813236ba134eaf16d61c8835982
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e12b2f21d5d49e948aa9f52816070da3, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 5fa25497a4ec4734f861aa8b56a73e9f, type: 2}
