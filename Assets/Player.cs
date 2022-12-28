@@ -52,5 +52,6 @@ public class Player : MonoBehaviour
         Debug.Log(col.name);
         if (col.TryGetComponent<Card>(out _)) ChangeParentCard(col.transform);
         if (col.TryGetComponent<FlipTrigger>(out _)) Flip();
+        if (col.TryGetComponent<DeathTrigger>(out _)) SceneControl.ReloadLevel();
     }
 }

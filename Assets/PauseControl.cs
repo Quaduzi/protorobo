@@ -9,6 +9,7 @@ public class PauseControl : MonoBehaviour
     private void Start()
     {
         GlobalEventManager.OnCardBeginDrag.AddListener(PauseGame);
+        GlobalEventManager.OnStartLevelTransition.AddListener(PauseGame);
         GlobalEventManager.OnCardEndDrag.AddListener(UnpauseGame);
     }
 

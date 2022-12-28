@@ -37,6 +37,9 @@ public class SceneControl : MonoBehaviour
         if (++_instance._currentLevel < LevelsCount) LoadLevel(_instance._currentLevel);
         else LoadTitles();
     }
+
+    public static void ReloadLevel() => LoadLevel(_instance._currentLevel);
+    
     public static void LoadLevel(int levelIndex)
     {
         if (levelIndex > LevelsCount || levelIndex < 0) return;
