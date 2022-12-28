@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee65317974d233d469bc2637d1128ec0
+guid: 308761e76c24c9741bcf5d68de29c6c9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,169 +129,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robot_moves_NM_0
+      name: PlayerFall_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 40
-        height: 40
+        x: 1
+        y: 1
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835e72cec3bb2294a9f688cdba1ccf2a
-      internalID: -5341667
+      spriteID: 1be943d944814f24e9283ecb58419763
+      internalID: 985498554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_moves_NM_1
+      name: PlayerFall_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 2
-        width: 40
-        height: 40
+        x: 23
+        y: 1
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48bb4e7949c71f54aad0c0087c3860e4
-      internalID: 1214336837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_2
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 507a6415019bd5f4fb5422175e64dea2
-      internalID: 967708639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_3
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b8eb0497cc66d4682e7e3ec340f359
-      internalID: 427792723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_4
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4eb33e3996401a04bad430cb0a935b0d
-      internalID: -787468822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_5
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20a9b35f3bb6226489e7cabe8bbe1711
-      internalID: 1726312209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_6
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d19afca3a2aa28b4d96554526751ad2f
-      internalID: -996445484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot_moves_NM_7
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 2
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acffbaf8a1c39414aa85817d3b8bfd87
-      internalID: 1260092697
+      spriteID: 4fca928dfbdfb3844ab1f26e9ac6b7d5
+      internalID: -1661031210
       vertices: []
       indices: 
       edges: []
@@ -307,14 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      robot_moves_NM_2: 967708639
-      robot_moves_NM_3: 427792723
-      robot_moves_NM_7: 1260092697
-      robot_moves_NM_6: -996445484
-      robot_moves_NM_1: 1214336837
-      robot_moves_NM_0: -5341667
-      robot_moves_NM_4: -787468822
-      robot_moves_NM_5: 1726312209
+      PlayerFall_0: 985498554
+      PlayerFall_1: -1661031210
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -4,7 +4,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D _rb;
+    private Animator _animator;
     private Card _parentCard;
+    private static readonly int VelocityY = Animator.StringToHash("VelocityY");
 
     [SerializeField] private float speed = 1;
     [SerializeField] private Direction direction = Direction.Right;
@@ -18,12 +20,14 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         _parentCard = GetComponentInParent<Card>();
     }
 
     private void FixedUpdate()
     {
         _rb.velocity = new Vector2(speed * (int)direction, _rb.velocity.y);
+        _animator.SetFloat(VelocityY, _rb.velocity.y);
     }
 
     private void ChangeParentCard(Transform newParent)
@@ -35,7 +39,13 @@ public class Player : MonoBehaviour
         
     }
 
-    private void Flip() => direction = (Direction) (-(int)direction);
+    private void Flip()
+    {
+        direction = (Direction)(-(int)direction);
+        var localScale = transform.localScale;
+        localScale = new Vector3(-1 * localScale.x, localScale.y, localScale.z);
+        transform.localScale = localScale;
+    }
 
     private void OnTriggerEnter2D(Collider2D col)
     {

@@ -18,7 +18,8 @@ public class SceneControl : MonoBehaviour
 
     private void Start()
     {
-        LoadMainMenu();
+        //LoadMainMenu();
+        Test();
     }
     
     private static SceneControl _instance;
@@ -29,7 +30,7 @@ public class SceneControl : MonoBehaviour
     public static void LoadSelectLevel() => LoadScene(_instance.selectLevelBuildIndex);
 
     [ContextMenu("bruh")]
-    public void Test() => LoadLevel(1);
+    public void Test() => LoadLevel(0);
 
     public static void NextLevel()
     {
