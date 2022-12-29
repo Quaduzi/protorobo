@@ -761,7 +761,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 700, y: 50}
+  m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &727605108
 MonoBehaviour:
@@ -783,7 +783,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C 9 - \u041B\u043E\u0432\u043A\u0430\u0447"
+  m_text: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C 9 - \u0410 \u0442\u0435\u043F\u0435\u0440\u044C
+    \u0437\u0430\u043A\u0440\u0435\u043F\u0438\u043C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81d11c78f3693274faddb9977e5561ef, type: 2}
   m_sharedMaterial: {fileID: 8315042611107210191, guid: 81d11c78f3693274faddb9977e5561ef, type: 2}
@@ -923,6 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit

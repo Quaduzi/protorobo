@@ -942,7 +942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -462157577, guid: 93563fbfaad23044784f32108a1f3ae8, type: 3}
+  m_Sprite: {fileID: 1557699312, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -623483227, guid: 93563fbfaad23044784f32108a1f3ae8, type: 3}
+  m_Sprite: {fileID: -660982445, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1193,6 +1193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1279,7 +1280,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 700, y: 50}
+  m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511635342
 MonoBehaviour:
@@ -1301,7 +1302,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C 1 - \u041E\u0441\u043D\u043E\u0432\u044B"
+  m_text: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C 1 - \u041E\u0441\u043D\u043E\u0432\u044B\n\u041F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u0435
+    \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0438 "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81d11c78f3693274faddb9977e5561ef, type: 2}
   m_sharedMaterial: {fileID: 8315042611107210191, guid: 81d11c78f3693274faddb9977e5561ef, type: 2}
@@ -1424,7 +1426,7 @@ RectTransform:
   m_GameObject: {fileID: 1798918542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1210587636}
