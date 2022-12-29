@@ -93,6 +93,7 @@ public class PlayerTriggerLogic : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, portal.transform.position, Time.deltaTime);
             transform.localScale = Vector3.MoveTowards(transform.localScale, Vector3.zero, Time.deltaTime);
+            transform.Rotate(Vector3.forward, 360 * Time.deltaTime);
             yield return null;
         }
     }
