@@ -124,4 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2664d82ec2a3e7e4db16031ebe173732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableEffect: {fileID: 0}
+  disableEffect: {fileID: 860929142061741172, guid: 3b39df546e85c3e4c9a3cce229e2a626, type: 3}

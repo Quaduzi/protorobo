@@ -7,6 +7,7 @@ public class Lock : MonoBehaviour
     [SerializeField] private Sprite hardLockSprite;
     [SerializeField] private Sprite keyLockSprite;
     [SerializeField] private LockType lockType;
+    [SerializeField] private GameObject unlockEffect;
 
     private SpriteRenderer _spriteRenderer;
     private Card _card;
@@ -43,6 +44,7 @@ public class Lock : MonoBehaviour
     public void Unlock()
     {
         if (lockType != LockType.Key) return;
+        Instantiate(unlockEffect, transform.position, Quaternion.identity);
         _card.UnblockCard();
         gameObject.SetActive(false);
     }

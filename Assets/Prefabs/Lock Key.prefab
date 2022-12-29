@@ -100,3 +100,4 @@ MonoBehaviour:
   hardLockSprite: {fileID: -1170884425, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
   keyLockSprite: {fileID: 1198536301, guid: 4ddeda828a9abc94b8632403bc0e0be4, type: 3}
   lockType: 1
+  unlockEffect: {fileID: 860929142061741172, guid: cf962ff6935f08b488f66a39057305d6, type: 3}
