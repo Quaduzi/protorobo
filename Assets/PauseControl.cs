@@ -7,6 +7,7 @@ public class PauseControl : MonoBehaviour
     {
         GlobalEventManager.OnCardBeginDrag.AddListener(PauseGame);
         GlobalEventManager.OnStartLevelTransition.AddListener(PauseGame);
+        GlobalEventManager.OnDeath.AddListener(PauseGame);
         GlobalEventManager.OnCardEndDrag.AddListener(UnpauseGame);
     }
 
@@ -15,7 +16,7 @@ public class PauseControl : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    [ContextMenu("Unause")]
+    [ContextMenu("Unpause")]
     public void UnpauseGame()
     {
         Time.timeScale = 1;

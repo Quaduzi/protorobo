@@ -10,8 +10,8 @@ public class SoundPlayer : MonoBehaviour
     
     private AudioSource _audioSource;
     private Random _rnd;
-    
-    void Start()
+
+    private void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
         _rnd = new Random();
